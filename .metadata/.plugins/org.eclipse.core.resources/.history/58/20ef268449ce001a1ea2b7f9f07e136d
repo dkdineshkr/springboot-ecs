@@ -1,0 +1,16 @@
+spring.application.name=company-service
+server.port = 9081
+server.servlet.context-path=/
+
+#Logging Settings
+logging.level.org.hibernate.SQL=ERROR
+logging.level.org.hibernate.type=ERROR
+logging.level.org.springframework=ERROR
+logging.level.com=ERROR
+logging.level.com.zensar=INFO
+#logging.file=D:/Dinesh/elk/SpringBootLogFiles/company-service.log
+
+employee.service.getemployees.url=http://${EMPLOYEE_SERVICE_HOST:localhost}:${EMPLOYEE_SERVICE_PORT:9082}/empmgmt/employees
+employee.service.createemployee.url=http://${EMPLOYEE_SERVICE_HOST:localhost}:${EMPLOYEE_SERVICE_PORT:9082}/empmgmt/employee
+
+

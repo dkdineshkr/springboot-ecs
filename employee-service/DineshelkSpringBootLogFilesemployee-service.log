@@ -1,0 +1,17 @@
+2020-07-08 11:03:15.251  INFO 24916 --- [restartedMain] com.zensar.EmployeeServiceApplication    : Starting EmployeeServiceApplication on JLPW42SLPC2093 with PID 24916 (D:\Dinesh\eclipseWorkSpace\05_Jul_2020_Aws_DevOps_Microservice\employee-service\target\classes started by DK43276 in D:\Dinesh\eclipseWorkSpace\05_Jul_2020_Aws_DevOps_Microservice\employee-service)
+2020-07-08 11:03:15.264  INFO 24916 --- [restartedMain] com.zensar.EmployeeServiceApplication    : No active profile set, falling back to default profiles: default
+2020-07-08 11:03:23.060  INFO 24916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 11:03:23.061  INFO 24916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-07-08 11:03:24.011  INFO 24916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 11:03:26.790  INFO 24916 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-08 11:03:27.011  INFO 24916 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-07-08 11:03:27.014  INFO 24916 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-07-08 11:03:27.853  INFO 24916 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-08 11:03:28.426  INFO 24916 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-08 11:03:30.661  INFO 24916 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@442e6afb'
+2020-07-08 11:03:31.681  INFO 24916 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-07-08 11:03:32.911  INFO 24916 --- [restartedMain] com.zensar.EmployeeServiceApplication    : Started EmployeeServiceApplication in 19.083 seconds (JVM running for 23.708)
+2020-07-08 11:03:32.920  INFO 24916 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-08 11:05:02.213  INFO 24916 --- [http-nio-9082-exec-2] c.zensar.controller.EmployeeController   : Starting REST Client for health start : Wed Jul 08 11:05:02 IST 2020

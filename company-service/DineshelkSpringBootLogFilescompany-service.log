@@ -1,0 +1,15 @@
+2020-07-08 11:03:22.035  INFO 28228 --- [restartedMain] com.zensar.CompanyServiceApplication     : Starting CompanyServiceApplication on JLPW42SLPC2093 with PID 28228 (D:\Dinesh\eclipseWorkSpace\05_Jul_2020_Aws_DevOps_Microservice\company-service\target\classes started by DK43276 in D:\Dinesh\eclipseWorkSpace\05_Jul_2020_Aws_DevOps_Microservice\company-service)
+2020-07-08 11:03:22.041  INFO 28228 --- [restartedMain] com.zensar.CompanyServiceApplication     : No active profile set, falling back to default profiles: default
+2020-07-08 11:03:25.811  INFO 28228 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 11:03:25.812  INFO 28228 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-07-08 11:03:26.312  INFO 28228 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 11:03:27.514  INFO 28228 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-07-08 11:03:27.635  INFO 28228 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2020-07-08 11:03:27.638  INFO 28228 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-07-08 11:03:27.935  INFO 28228 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-07-08 11:03:28.426  INFO 28228 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-08 11:03:30.860  INFO 28228 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-08 11:03:31.127  INFO 28228 --- [restartedMain] com.zensar.CompanyServiceApplication     : Started CompanyServiceApplication in 9.646 seconds (JVM running for 12.669)
+2020-07-08 11:04:25.411  INFO 28228 --- [http-nio-9081-exec-1] com.zensar.controller.CompanyController  : Starting REST Client for health start : Wed Jul 08 11:04:25 IST 2020

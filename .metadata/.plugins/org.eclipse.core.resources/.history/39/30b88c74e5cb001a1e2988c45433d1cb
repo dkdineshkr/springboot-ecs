@@ -1,0 +1,10 @@
+package com.zensar;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient(name="employee-service", url="")
+public interface EmployeServiceProxy {
+	
+	
+
+}

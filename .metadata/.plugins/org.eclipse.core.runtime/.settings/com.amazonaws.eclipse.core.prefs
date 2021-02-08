@@ -1,0 +1,9 @@
+146de9ad-b56b-4931-9313-353007cf0309\:credentialProfileName=aws-devops
+cognitoIdentityId=us-east-1\:be432d35-1bfd-407f-a762-c95a74e48a25
+cognitoIdentityPoolId=us-east-1\:d4fdc07f-94fd-4cc6-94fb-f903657f05c1
+credentialProfileAccountIds=d2dc4546-80af-424d-b586-ce1b75fad9f1|146de9ad-b56b-4931-9313-353007cf0309
+currentAccount=d2dc4546-80af-424d-b586-ce1b75fad9f1
+currentDefaultAccount=d2dc4546-80af-424d-b586-ce1b75fad9f1
+d2dc4546-80af-424d-b586-ce1b75fad9f1\:credentialProfileName=default
+ec2PreferencesImported=true
+eclipse.preferences.version=1

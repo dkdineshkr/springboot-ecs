@@ -1,0 +1,28 @@
+package com.zensar;
+
+import java.util.List;
+
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+import com.zensar.entity.Employee;
+
+//@FeignClient(name = "employee-service", url = "localhost:9082/empmgmt")
+@FeignClient(name = "employee-service")
+@RibbonClient(name = "employee-service")
+public interface EmployeeServiceProxy {
+	
+	@GetMapping("/employees")
+	@ResponseStatus(HttpStatus.OK)
+	public List<Employee> listAllUsers();
+	
+	@PostMapping("/employee")
+	@ResponseStatus(HttpStatus.OK)
+	public void createUser(@RequestBody Employee employee);
+
+}
